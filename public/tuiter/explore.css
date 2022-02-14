@@ -5,6 +5,7 @@
 .wd-non-highlight-color {color: #6e767d; }
 
 .wd-border-color { border-color: #2f3336; }
+.wd-border-solid { border-style: solid; }
 
 
 .wd-highlighted, .wd-non-highlighted {
