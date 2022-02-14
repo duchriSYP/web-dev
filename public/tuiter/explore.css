@@ -6,7 +6,10 @@
 
 .wd-border-color { border-color: #2f3336; }
 
+
 .wd-highlighted, .wd-non-highlighted {
+    width: 20%;
+    float: left;
     font-size: 15px;
     border-radius: 16px;
 }
@@ -14,7 +17,7 @@
 .wd-highlighted {
     border-bottom: #1da0f2;
     color: #1da0f2;
-
+    border-width: 4px; 
 }
 
 .wd-non-highlighted {
