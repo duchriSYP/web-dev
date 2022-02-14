@@ -1,6 +1,8 @@
 .wd-bg-color-black { color: black; }
-.wd-bg-color-darkgray { color: darkgray}
-.wd-fg-color-white { color: white }
+.wd-bg-color-darkgray { color: darkgray; }
+.wd-fg-color-white { color: white; }
+.wd-highlight-color {color: #1da0f2; }
+.wd-non-highlight-color {color: #6e767d; }
 
 .wd-border-color { border-color: #2f3336; }
 
@@ -8,5 +10,14 @@
     padding-left: 16px;
 }
 
+.wd-rounded-corners-all-around {
     border-radius: 50px;
+}
+
+.wd-padding-fat {
+    border-radius: 16px;
+}
+
+.wd-explore-font-size {
+    font-size: 15px;
 }
