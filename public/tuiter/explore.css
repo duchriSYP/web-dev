@@ -1,0 +1,12 @@
+.wd-bg-color-black { color: black; }
+.wd-bg-color-darkgray { color: darkgray}
+.wd-fg-color-white { color: white }
+
+.wd-border-color { border-color: #2f3336; }
+
+.wd-padded-left {
+    padding-left: 16px;
+}
+
+    border-radius: 50px;
+}
