@@ -6,6 +6,21 @@
 
 .wd-border-color { border-color: #2f3336; }
 
+.wd-highlighted, .wd-non-highlighted {
+    font-size: 15px;
+    border-radius: 16px;
+}
+
+.wd-highlighted {
+    border-bottom: #1da0f2;
+    color: #1da0f2;
+
+}
+
+.wd-non-highlighted {
+    color: #6e767d;
+}
+
 .wd-padded-left {
     padding-left: 16px;
 }
