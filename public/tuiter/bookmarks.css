@@ -57,9 +57,53 @@
     color: lightgray;
 }
 
-.wd-tuit.text {
+.wd-tuit-text {
     color: white;
     font-size: 15px;    
     width: 506px;
     padding-right: 16px;
+}
+
+.wd-tuit-image {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 25px;
+}
+
+.wd-image {
+    width:504px;
+    height:264px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.wd-iamge-title {
+    color: white;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-image-text {
+    color: lightgray;
+    font-size: 15px;
+    padding: 0px 12px 12px 12px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.wd-tuit-interactions {
+    margin-top: 12px;
+    padding-left: 60px;
+    width: 504px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.wd-interaction { 
+    font-size: 15px;
+    color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
 }
