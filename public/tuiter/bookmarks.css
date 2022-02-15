@@ -69,6 +69,10 @@
     border-width: 1px;
     border-color: lightgray;
     border-radius: 25px;
+    width: 504px;
+    padding-bottom: 12px;
+    margin-left: 60px;
+    margin-top: 12px;
 }
 
 .wd-image {
@@ -106,4 +110,8 @@
     color: lightgray;
     display: flex;
     justify-content: space-evenly;
+}
+
+.wd-liked {
+    color: red;
 }
