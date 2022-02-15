@@ -7,10 +7,17 @@
 .wd-border-color { border-color: #2f3336; }
 .wd-border-solid { border-style: solid; }
 
+.wd-padding-left {
+  padding-left: 16px;
+}
+
+.wd-settings {
+  font-size: 40px;
+}
+
 .grid-row {
     clear: both;
 }
-
 
 .grid-col-ninety-page {
     width: 85%;
@@ -25,12 +32,17 @@
 .wd-input {
   margin: 10px;
   margin-left: 16px;
-  width: 100%;
+  width: 70%;
   height: 25px;
   border-radius: 25px;
   padding: 10px;
   background-color: darkgray;
   color: white;
+}
+
+.wd-input-search {
+  display: flex;
+  align-items: center;
 }
 
 .wd-settings-float {
@@ -46,23 +58,27 @@
 }
 
 .wd-highlighted, .wd-non-highlighted {
-    width: calc(100%/6);
-    float: left;
     font-size: 15px;
-    padding: 16px 0px;
-    margin: 0px 16px;
+    padding: 16px;
+    text-align: center;
 }
 
 .wd-highlighted {
     border-bottom: 4px #1da0f2;
     color: #1da0f2;
     border-bottom-style: solid;
+} 
+
+.wd-non-highlighted {
+  color: #6e767d;
 }
 
 .wd-post {
   border-style: solid;
   border: 1px;
   border-color: #2f3336;
+  margin: 0px;
+  padding: 10px;
 }
 
 .wd-topic {
@@ -71,6 +87,7 @@
 }
 
 .wd-discussion {
+  font-size: 13px;
   color:white;
 }
 
@@ -82,12 +99,13 @@
   width: 100px;
   height: 100px;
   padding-right: 16px;
+  border-radius: 15px;
 }
 
-
-.wd-non-highlighted {
-    color: #6e767d;
+.wd-flex {
+  display: flex;
 }
+
 
 .wd-outer-flex-container {
     border-color: #2f3336;
