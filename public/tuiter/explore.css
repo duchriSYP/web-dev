@@ -29,6 +29,9 @@
 .wd-input-search {
   display: flex;
   align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #2f3336;
 }
 
 .wd-settings-float {
@@ -61,7 +64,7 @@
 
 .wd-post {
   border-style: solid;
-  border: 1px;
+  border-width: 1px;
   border-color: #2f3336;
   margin: 0px;
   padding: 10px;
