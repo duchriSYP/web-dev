@@ -1,5 +1,5 @@
-.wd-bg-color-black { color: black; }
-.wd-bg-color-darkgray { color: darkgray; }
+.wd-bg-color-black { background-color: black; }
+.wd-bg-color-darkgray { background-color: darkgray; }
 .wd-fg-color-white { color: white; }
 .wd-highlight-color {color: #1da0f2; }
 .wd-non-highlight-color {color: #6e767d; }
@@ -7,22 +7,45 @@
 .wd-border-color { border-color: #2f3336; }
 .wd-border-solid { border-style: solid; }
 
+.wd-search {
+  background-color: dark-gray;
+  color: white;
+  border-radius: 15px;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.wd-links {
+  font-size: 15px;
+  border-radius: 16px;
+  display: flex;
+}
 
 .wd-highlighted, .wd-non-highlighted {
     width: calc(100%/6);
     float: left;
     font-size: 15px;
-    border-radius: 16px;
+    padding: 16px 0px;
+    margin: 0px 16px;
 }
 
 .wd-highlighted {
-    border-bottom: #1da0f2;
+    border-bottom: 4px #1da0f2;
     color: #1da0f2;
-    border-width: 4px; 
+    border-bottom-style: solid;
+
 }
 
 .wd-non-highlighted {
     color: #6e767d;
+}
+
+.wd-outer-flex-container {
+    border-color: #2f3336;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: space-around;
 }
 
 .wd-margin-left {
@@ -30,15 +53,7 @@
 }
 
 .wd-rounded-corners-all-around {
-    border-radius: 50px;
-}
-
-.wd-padding-fat {
-    border-radius: 16px;
-}
-
-.wd-explore-font-size {
-    font-size: 15px;
+    border-radius: 5px;
 }
 
 .wd-topic-font-size {
@@ -48,4 +63,8 @@
 .wd-dimension-topic-image {
     width: 100px;
     height: 100px;
+}
+
+.wd-grid-row {
+  clear: both;
 }
