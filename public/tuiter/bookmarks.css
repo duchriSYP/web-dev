@@ -1,0 +1,65 @@
+.wd-border-color { border-color: #2f3336; }
+
+.wd-bg-color-black { background-color: black; }
+
+.wd-grid-row {
+    clear: both;
+}
+.wd-grid-col-ten {
+  width: 10%;
+}
+.wd-title {
+  color: white;
+  padding-left: 16px;
+  padding-top: 12px;
+  border-style: solid;
+  border-color: #2f3336;
+  border-width: 1px;
+  font-size: 20px;
+  padding-bottom: 12px;
+}
+
+.wd-handle {
+  color: lightgray;
+  font-size: 13px;
+}
+
+.wd-post {
+  padding-left: 16px;
+  padding-top: 12px;
+  border-style: solid;
+  border-color: #2f3336;
+  border-width: 1px;
+  padding-bottom: 12px;
+}
+
+.wd-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-flex {
+    display: flex;
+    align-items: start;
+}
+
+.wd-tuit {
+    padding-left: 12px;
+}
+
+.wd-tuit-info {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-tuit-date-handle {
+    color: lightgray;
+}
+
+.wd-tuit.text {
+    color: white;
+    font-size: 15px;    
+    width: 506px;
+    padding-right: 16px;
+}
