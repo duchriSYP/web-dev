@@ -80,8 +80,7 @@
 .wd-image {
   width: 100px;
   height: 100px;
-  padding-right: 16px;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .wd-flex {
@@ -100,8 +99,8 @@
     margin-left: 16px;
 }
 
-.wd-rounded-corners-all-around {
-    border-radius: 5px;
+.wd-all-around-padding {
+  padding: 16px;
 }
 
 .wd-topic-font-size {
