@@ -44,6 +44,7 @@
   border-width: 1px;
   border-style: solid;
   border-color: #2f3336;
+  color: #1da0f2;
 }
 
 .wd-highlighted, .wd-non-highlighted {
@@ -55,7 +56,6 @@
 .wd-highlighted {
     border-bottom: 4px #1da0f2;
     color: #1da0f2;
-    font-size:30px;
     border-bottom-style: solid;
 } 
 
@@ -104,12 +104,4 @@
 
 .wd-all-around-padding {
   padding: 16px;
-}
-
-.wd-topic-font-size {
-    font-size: 13px;
-}
-
-.wd-grid-row {
-  clear: both;
 }
