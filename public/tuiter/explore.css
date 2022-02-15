@@ -7,19 +7,29 @@
 .wd-border-color { border-color: #2f3336; }
 .wd-border-solid { border-style: solid; }
 
-.wd-search {
-  background-color: dark-gray;
-  color: white;
-  border-radius: 15px;
-  border-style: solid;
+.wd-input {
   margin: 10px;
+  margin-left: 16px;
+  width: 85%;
+  height: 25px;
+  border-radius: 25px;
   padding: 10px;
+  background-color: darkgray;
+  color: white;
+  float: left;
+}
+
+.wd-settings-float {
+  margin-right: 12px;
+  float: right;
+  font-size: 25px;
 }
 
 .wd-links {
   font-size: 15px;
   border-radius: 16px;
   display: flex;
+  margin-left:16px;
 }
 
 .wd-highlighted, .wd-non-highlighted {
@@ -34,8 +44,33 @@
     border-bottom: 4px #1da0f2;
     color: #1da0f2;
     border-bottom-style: solid;
-
 }
+
+.wd-post {
+  border-style: solid;
+  border: 1px;
+  border-color: #2f3336;
+}
+
+.wd-topic {
+  font-size: 13px;
+  color: #6e767d;
+}
+
+.wd-discussion {
+  color:white;
+}
+
+.wd-author {
+  color:white
+}
+
+.wd-image {
+  width: 100px;
+  height: 100px;
+  padding-right: 16px;
+}
+
 
 .wd-non-highlighted {
     color: #6e767d;
