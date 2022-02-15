@@ -7,22 +7,35 @@
 .wd-border-color { border-color: #2f3336; }
 .wd-border-solid { border-style: solid; }
 
+.grid-row {
+    clear: both;
+}
+
+
+.grid-col-ninety-page {
+    width: 85%;
+    float: left;
+}
+
+.grid-col-ten-page {
+    width: 5%;
+    float: right;
+}
+
 .wd-input {
   margin: 10px;
   margin-left: 16px;
-  width: 85%;
+  width: 100%;
   height: 25px;
   border-radius: 25px;
   padding: 10px;
   background-color: darkgray;
   color: white;
-  float: left;
 }
 
 .wd-settings-float {
   margin-right: 12px;
-  float: right;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .wd-links {
