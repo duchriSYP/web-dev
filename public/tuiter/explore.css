@@ -17,7 +17,6 @@
 
 .wd-input {
   margin: 10px;
-  margin-left: 16px;
   width: 60%;
   height: 25px;
   border-radius: 25px;
@@ -44,6 +43,9 @@
   border-radius: 16px;
   display: flex;
   margin-left:16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #2f3336;
 }
 
 .wd-highlighted, .wd-non-highlighted {
@@ -82,6 +84,7 @@
 
 .wd-image {
   border-radius: 20px;
+  float:right;
 }
 
 .wd-flex {
