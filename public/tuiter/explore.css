@@ -116,4 +116,12 @@
 
 .wd-more {
   padding-left: 0px;
+  padding-right: 0px;
+}
+
+.wd-spacex-heading {
+  position:absolute;
+  bottom: 8px;
+  left: 8px;
+  font-size: 40px;
 }
