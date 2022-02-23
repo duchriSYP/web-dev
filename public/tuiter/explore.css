@@ -121,8 +121,13 @@
 
 .wd-search-icon {
   background-color: white;
-  border: none;
+  border-right: none;
 }
+
+.wd-search-bar {
+  border-left: none;
+}
+
 .wd-more {
   padding-left: 0px;
   padding-right: 0px;
