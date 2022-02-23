@@ -127,6 +127,11 @@
   color: white;
 }
 
+.wd-img-text {
+  position:relative;
+  text-align:left;
+}
+
 .wd-img-overlay {
   position: absolute;
   font-weight: bolder;
@@ -134,4 +139,12 @@
   bottom: 4px;
   left: 4px;
   font-size: 25px;
+}
+
+.wd-subtext {
+  color: lightgray;
+}
+
+.wd-image-icons {
+  border-radius: 15px;
 }
