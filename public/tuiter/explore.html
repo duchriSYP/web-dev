@@ -1,31 +1,101 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="explore.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="container">
-        <div class="wd-input-search">
+        <div class="row">
+            <div class="col-2">
+                <div class="row">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action disabled ">
+                            Who to follow
+                        </a>
+                        <a href="home.html" class="list-group-item list-group-item-action" aria-current="true">
+                            <i class="fa-solid fa-house-chimney"></i> Home
+                        </a>
+                        <a href="explore.html" class="list-group-item list-group-item-action active ">
+                            <i class="fa-solid fa-hashtag"></i> Explore
+                        </a>
+                        <a href="explore.html" class="list-group-item list-group-item-action active ">
+                            <i class="fa-solid fa-bell"></i> Notifications
+                        </a>
+                        <a href="explore.html" class="list-group-item list-group-item-action active ">
+                            <i class="fa-solid fa-envelope"></i> Messages
+                        </a>
+                        <a href="explore.html" class="list-group-item list-group-item-action active ">
+                            <i class="fa-solid fa-bookmark"></i> Bookmarks
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <button class="btn btn-primary override-bs">
+                        Overriden Button
+                    </button>
+                </div>
+            </div>
+            <div class="col-6">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="for-you.html">For You</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action disabled ">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="home.html" class="list-group-item list-group-item-action" aria-current="true">
+                        <i class="fa-solid fa-house-chimney"></i> Home
+                    </a>
+                    <a href="explore.html" class="list-group-item list-group-item-action active ">
+                        <i class="fa-solid fa-hashtag"></i> Explore
+                    </a>
+                    <a href="explore.html" class="list-group-item list-group-item-action active ">
+                        <i class="fa-solid fa-bell"></i> Notifications
+                    </a>
+                    <a href="explore.html" class="list-group-item list-group-item-action active ">
+                        <i class="fa-solid fa-envelope"></i> Messages
+                    </a>
+                    <a href="explore.html" class="list-group-item list-group-item-action active ">
+                        <i class="fa-solid fa-bookmark"></i> Bookmarks
+                    </a>
+                    <a href="explore.html" class="list-group-item list-group-item-action active ">
+                        <i class="fa-solid fa-list"></i> Lists
+                    </a>
+                    <a href="explore.html" class="list-group-item list-group-item-action active ">
+                        <i class="fa-solid fa-user"></i> Profile
+                    </a>
+                    <a href="explore.html" class="list-group-item list-group-item-action active ">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa-solid fa-stack-2x fa-circle"></i>
+                            <i class="fa-solid fa-stack-1x fa-ellipsis fa-inverse"></i>
+                        </span><br />
+                        More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--div class="wd-input-search">
             <input class="wd-input" id="text-fields-search" placeholder="Search Tuiter" />
             <a href="explore-settings.html" class="wd-settings">&#x2699;</a>
         </div>
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" href="for-you.html">For You</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="trending.html">Trending</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sports.html">Sports</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="entertainment.html">Entertainment</a>
-            </li>
-        </ul>
         <div class="wd-post wd-all-around-padding">
             <div class="wd-topic">
                 Trending in Science
@@ -92,108 +162,5 @@
             </div>
             <img class="wd-image" src="footbal.jpeg" style="width:100px;height: 100px;">
         </div>
-    </div>
-</body>
-<!--body class="wd-bg-color-black">
-    <div class="wd-outer-flex-container">
-        <div>
-            <form id="text-fields">
-                <input class="wd-input" id="text-fields-search" placeholder="Search Tuiter" />
-            </form>
-            <div class="wd-settings-float">
-                <a href="explore-settings.html">&#x2699;</a>
-            </div>
-        </div>
-        <div class="wd-grid-row wd-links">
-            <div class="wd-highlighted">
-                <a href="#">For you</a>
-            </div>
-            <div class="wd-non-highlighted">
-                <a href="#">Trending</a>
-            </div>
-            <div class="wd-non-highlighted">
-                <a href="#">COVID-19</a>
-            </div>
-            <div class="wd-non-highlighted">
-                <a href="#">News</a>
-            </div>
-            <div class="wd-non-highlighted">
-                <a href="#">Sports</a>
-            </div>
-            <div class="wd-non-highlighted">
-                <a href="#">Entertainment</a>
-            </div>
-        </div>
-        <div class="wd-post">
-            <div class="wd-topic">
-                Trending in Science
-            </div>
-            <div class="wd-discussion">
-                Starship
-            </div>
-            <div class="wd-topic">
-                55.5k Tuits
-            </div>
-        </div>
-        <div class="wd-post">
-            <div class="wd-topic">
-                Trending in Sports
-            </div>
-            <div class="wd-discussion">
-                Joe Rogan
-            </div>
-            <div class="wd-topic">
-                2 Tuits
-            </div>
-        </div>
-        <div class="wd-post">
-            <div class="wd-topic">
-                <span class="wd-author">The New York Times</span> Yesterday
-            </div>
-            <div class="wd-discussion">
-                Joe Rogan
-            </div>
-            <div class="wd-topic">
-                2 Tuits
-            </div>
-        </div>
-        <div class="wd-post">
-            <div class="wd-topic">
-                Trending in Sports
-            </div>
-            <div class="wd-discussion">
-                Joe Rogan
-            </div>
-            <div class="wd-topic">
-                2 Tuits
-            </div>
-        </div>
-        <div class="wd-post">
-            <div class="wd-topic">
-                Trending in Sports
-            </div>
-            <div class="wd-discussion">
-                Joe Rogan
-            </div>
-            <div class="wd-topic">
-                2 Tuits
-            </div>
-        </div>
-        <div class="wd-post">
-            <div class="wd-topic">
-                Trending in Sports
-            </div>
-            <div class="wd-discussion">
-                Joe Rogan
-            </div>
-            <div class="wd-topic">
-                2 Tuits
-            </div>
-        </div>
-    </div>
-</body-->
-
-<!--div>
-        <img/>
-        <p>Lorem ipsum dolor</p>
     </div-->
+</body>
