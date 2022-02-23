@@ -162,6 +162,7 @@
 .wd-image-icons {
   border-radius: 15px;
   border: none;
+  max-width: none;
 }
 
 .wd-image-avatar {
