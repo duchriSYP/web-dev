@@ -142,9 +142,10 @@
 }
 
 .wd-subtext {
-  color: lightgray;
+  color: gray;
 }
 
 .wd-image-icons {
   border-radius: 15px;
+  border: none;
 }
