@@ -106,7 +106,8 @@
   padding: 16px;
 }
 
-.btn-primary.override-bs {
+.wd-btn-tweet {
+  width: 100%;
   border-radius: 20px;
 }
 
