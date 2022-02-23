@@ -165,3 +165,8 @@
   border-radius: 50%;
   border: none;
 }
+
+.wd-remove-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
