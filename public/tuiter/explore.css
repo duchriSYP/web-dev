@@ -119,6 +119,10 @@
   border-radius: 25px;
 }
 
+.wd-search-con {
+  background-color: white;
+  border: none;
+}
 .wd-more {
   padding-left: 0px;
   padding-right: 0px;
