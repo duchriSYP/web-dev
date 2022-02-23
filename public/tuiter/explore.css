@@ -123,5 +123,10 @@
   position:absolute;
   bottom: 8px;
   left: 8px;
-  font-size: 40px;
+  font-size: 25px;
+  color: white;
+}
+
+.card-img-overlay {
+	top: auto;
 }
