@@ -127,6 +127,11 @@
   color: white;
 }
 
-.card-img-overlay {
-	top: auto;
+.wd-img-overlay {
+  position: absolute;
+  font-weight: bolder;
+  color: white;
+  bottom: 4px;
+  left: 4px;
+  font-size: 25px;
 }
