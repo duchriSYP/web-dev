@@ -109,6 +109,10 @@
 .wd-btn-tweet {
   width: 100%;
   border-radius: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .wd-search {
