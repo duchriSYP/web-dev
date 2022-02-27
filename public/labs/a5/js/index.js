@@ -47,3 +47,14 @@ console.log(true4);
 console.log(true5);
 console.log(false3);
 
+console.log('If else');
+if (true1) {
+    console.log(true);
+}
+
+if (!false1) {
+    console.log('!false1');
+} else {
+    console.log('false1');
+}
+
