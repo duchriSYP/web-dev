@@ -183,5 +183,34 @@ const init = () => {
     hideMe.hide();
     const showMe = $("#show-me");
     showMe.show();
+    const newLineItem = $("<li>Line item 1</li>");
+    const anotherLineItem = $("<li>Line item 2</li>");
+    const ul = $("#append-new-elements");
+    ul.append(newLineItem);
+    ul.append(anotherLineItem);
+    const removeThisLi = $("#remove-this");
+    const emptyThisUl = $("#empty-this");
+    removeThisLi.remove();
+    emptyThisUl.empty();
+    const changeThisText =
+        $("#change-this-text");
+    const changeThisHtml =
+        $("#change-this-html");
+    changeThisText.html('New text');
+    changeThisHtml.html(`
+    <li>Line item A</li>
+    <li>Line item B</li>
+    <li>Line item C</li>`);
+    const child2 = $("#child-2");
+    const parent1 =
+        child2.parents("#parent");
+    parent1
+        .css('background-color', 'red')
+        .css('color', 'white');
+
+    const parent = $("#parent");
+    const child = parent.find("#child-2");
+    child.css('background-color', 'blue')
+
 }
 $(init);
