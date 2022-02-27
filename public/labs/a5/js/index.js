@@ -155,8 +155,8 @@ const username = "alice";
 const greeting1 = `Welcome home ${username}`;
 console.log(greeting1);
 
-const loggedIn = false;
-const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
+const loggedIn2 = false;
+const greeting2 = `Logged in: ${loggedIn2 ? "Yes" : "No"}`;
 
 const init = () => {
     console.log('Hello world from jQuery');
