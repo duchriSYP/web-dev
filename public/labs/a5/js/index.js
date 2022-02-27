@@ -157,3 +157,14 @@ console.log(greeting1);
 
 const loggedIn = false;
 const greeting2 = `Logged in: ${loggedIn ? "Yes" : "No"}`;
+
+const init = () => {
+    console.log('Hello world from jQuery');
+    const bindById = $('#bind-by-id');
+    const bindByClass = $('.bind-by-class');
+    console.log('Binding to DOM');
+    console.log(bindById);
+    console.log(bindByClass);
+
+}
+$(init);
