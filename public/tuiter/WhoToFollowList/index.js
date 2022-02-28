@@ -14,3 +14,5 @@ const WhoToFollowList = () => {
             </ul>s
             `);
 }
+
+export default WhoToFollowList;
