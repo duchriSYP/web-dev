@@ -5,7 +5,7 @@ const ExploreComponent = () => {
             <div class="row mb-2 align-items-center">
                 <div class="col-11 wd-remove-padding">
                     <div class="input-group wd-search">
-                        <span class="input-group-text wd-search wd-search-icon wd-title-text"><i
+                        <span class="input-group-text wd-search wd-search-icon wd-non-highlighted"><i
                                 class="fa-solid fa-magnifying-glass"></i></span>
                         <input type="search" class="form-control wd-search wd-search-bar"
                             placeholder="Search Twitter">
