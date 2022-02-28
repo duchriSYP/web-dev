@@ -179,3 +179,8 @@
 .wd-title-text {
     color: white!important;
 }
+
+.wd-border {
+    color: lightgray;
+    border-width: 2px;
+}
