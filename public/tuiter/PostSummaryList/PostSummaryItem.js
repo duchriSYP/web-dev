@@ -1,6 +1,6 @@
 const PostSummaryItem = (post) => {
     return (`
-        <div class="row border wd-title-text pb-1">
+        <div class="row border border-secondary pb-1">
             <div class="col-10 mt-1">
                 ${post.topic ? `<span class="wd-subtext">${post.topic}</span> <br />` : ``}
                 <span class="fw-bold wd-title-text">
