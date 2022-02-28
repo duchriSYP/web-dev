@@ -1,9 +1,9 @@
-import exploreItems from "./posts.js";
+import posts from "./posts.js";
 import PostSummaryItem from "./PostSummaryItem.js";
 
 const PostSummaryList = () => {
     return (`
-    ${exploreItems.map(post => {
+    ${posts.map(post => {
         return (PostSummaryItem(post));
     }).join('')
         }
