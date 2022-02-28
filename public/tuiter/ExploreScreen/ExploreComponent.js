@@ -35,7 +35,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div class="row wd-img-text">
-                <img src="spaecx.jpeg" class="m-0 p-0" alt="SpaceX Starship">
+                <img src="../spaecx.jpeg" class="m-0 p-0" alt="SpaceX Starship">
                 <div class="wd-img-overlay"> SpaceX's Starship </div>
             </div>
            ${PostSummaryList()}
