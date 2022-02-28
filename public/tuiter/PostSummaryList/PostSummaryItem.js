@@ -2,8 +2,7 @@ const PostSummaryItem = (post) => {
     return (`
         <div class="row border pb-1">
             <div class="col-10 mt-1">
-                
-                <span class="wd-subtext">${post.topic}</span> <br />
+                ${post.topic ? `<span class="wd-subtext">${post.topic}</span> <br />` : null}
                 <span class="fw-bold">
                     ${post.userName}
                     <i class="fa-solid fa-circle-check"></i>
