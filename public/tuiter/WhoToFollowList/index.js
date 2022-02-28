@@ -11,7 +11,7 @@ const WhoToFollowList = () => {
         return (WhoToFollowListItem(account));
     }).join('')
         }
-            </ul>s
+            </ul>
             `);
 }
 
