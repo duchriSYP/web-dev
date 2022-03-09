@@ -181,27 +181,14 @@
     <a href="https://www.lipsum.com">click here</a>
     to get dummy text<br />
 
-    <select>
-        <option>QWE</option>
-        <option selected>WER</option>
-        <option>ERT</option>
-    </select>
+    <style>
+        #qwe {
+            background-color: blue;
+        }
 
-    <options>
-        <option>QWE</option>
-        <option selected>WER</option>
-        <option>ERT</option>
-    </options>
-
-    <select>
-        <option>QWE</option>
-        <option default>WER</option>
-        <option>ERT</option>
-    </select>
-
-    <options default="WER">
-        <option>QWE</option>
-        <option>WER</option>
-        <option>ERT</option>
-    </options>
+        .wer {
+            background-color: yellow;
+        }
+    </style>
+    <div id="qwe" class="wer" style="background-color: red">ABC</div>
 </body>
