@@ -126,15 +126,31 @@
     </button> <br />
 
     <script>
-        const test1 = (todos) => `
-            <ul>
-                ${todos.map(todo => {
-            return `<li>${todo}</li>`
-        }
-        )}
-            </ul>`;
-        const todos1 = ['test', 'test']
-        let html1 = test1(todos1);
+        const test0 = () => `
+        ${function PC() { return (`<h1>GO</h1>`) }}`;
+        let html0 = test0();
+        document.write(html0);
+    </script><br />
+
+    <script>
+        const test1 = () => `
+        <h1>GO</h1>`;
+        let html1 = test1();
+        document.write(html1);
+    </script><br />
+
+    <script>
+        const test2 = () => {
+            return (`
+    <h1>GO</h1>`)
+        };
+        let html2 = test2();
+        document.write(html2);
+    </script><br />
+    <script>
+        const test1 = () => `
+    <h1>GO</h1>`;
+        let html1 = test1();
         document.write(html1);
     </script><br />
 
