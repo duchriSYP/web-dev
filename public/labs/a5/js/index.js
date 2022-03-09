@@ -255,6 +255,6 @@ const init = () => {
     }
     console.log(gu.si)
     console.log(uj.cf)
-    console.log(gu.si)
+    console.log(gu.co)
 }
 $(init);
