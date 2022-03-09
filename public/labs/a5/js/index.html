@@ -130,7 +130,7 @@
             <ul>
                 ${todos.map(todo =>
             `<li>${todo}</li>`
-        ).filter(das => dsa > 50)}
+        ).filter(dsa => dsa > 50)}
             </ul>`;
         const todos = [28, 107, 26, 65, 95]
         let html = renderTodos(todos);
@@ -149,7 +149,7 @@
     <script>
         const renderTodos = (todos) => `
             <ul>
-                ${todos.filter(das => dsa > 50).map(todo =>
+                ${todos.filter(dsa => dsa > 50).map(todo =>
             `<li>${todo}</li>`
         )}
             </ul>`;
@@ -157,6 +157,20 @@
         let html = renderTodos(todos);
         document.write(html);
     </script><br />
+
+    <script>
+        const renderTodos = (todos) => `
+        <ul>
+            ${todos.filter(das => dsa > 50).map(todo =>
+            `<li>${todo}</li>`
+        )}
+        </ul>`;
+        const todos = ['qu',]
+        let html = renderTodos(todos);
+        document.write(html);
+    </script><br />
+
+
 
     <a href="todo/index.html">TODO List</a></li>
 </body>
