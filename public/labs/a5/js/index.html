@@ -126,49 +126,38 @@
     </button> <br />
 
     <script>
-        const renderTodos = (todos) => `
+        const test1 = (todos) => `
             <ul>
                 ${todos.map(todo =>
             `<li>${todo}</li>`
         ).filter(dsa => dsa > 50)}
             </ul>`;
-        const todos = [28, 107, 26, 65, 95]
-        let html = renderTodos(todos);
-        document.write(html);
+        const todos1 = [28, 107, 26, 65, 95]
+        let html1 = test1(todos1);
+        document.write(html1);
     </script><br />
 
     <script>
-        const test1 = (todos) => `
+        const test2 = (todos) => `
             <ul>
                 ${todos.filter(function (dsa) { return dsa > 50 }).map(function (rew) { return (<li>${todo}</li>) })}
             </ul>`;
-        const todos1 = [28, 107, 26, 65, 95]
-        let html = test1(todos1);
-        document.write(html);
+        const todos2 = [28, 107, 26, 65, 95]
+        let html2 = test2(todos2);
+        document.write(html2);
     </script><br />
     <script>
-        const test2 = (todos) => `
+        const test3 = (todos) => `
             <ul>
                 ${todos.filter(dsa => dsa > 50).map(todo =>
             `<li>${todo}</li>`
         )}
             </ul>`;
-        const todos2 = [28, 107, 26, 65, 95]
-        let html = test2(todos2);
-        document.write(html);
+        const todos3 = [28, 107, 26, 65, 95]
+        let html3 = test3(todos3);
+        document.write(html3);
     </script><br />
 
-    <script>
-        const test3 = (todos) => `
-        <ul>
-            ${todos.filter(das => dsa > 50).map(todo =>
-            `<li>${todo}</li>`
-        )}
-        </ul>`;
-        const todos3 = ['qu',]
-        let html = test3(todos3);
-        document.write(html);
-    </script><br />
 
 
 
