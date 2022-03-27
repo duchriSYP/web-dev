@@ -7,7 +7,7 @@ import TodoList from "./todo/TodoList";
 
 const Labs = () => {
     return (
-        <>
+        <div>
             <h1>Labs</h1>
             <Link to="/hello">
                 Hello
@@ -19,7 +19,8 @@ const Labs = () => {
             <Styles />
             <Classes />
             <TodoList />
-        </>
+            <ReduxExamples />
+        </div>
     )
 };
 
