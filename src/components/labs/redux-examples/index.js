@@ -13,7 +13,7 @@ const store = createStore(reducers);
 
 const ReduxExamples = () => {
     return (
-        <Provider store={reducers}>
+        <Provider store={store}>
             <div>
                 <h2>Redux Examples</h2>
                 <Todos />
