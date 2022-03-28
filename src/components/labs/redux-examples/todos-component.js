@@ -39,14 +39,6 @@ const Todos = () => {
             <h3>Todos</h3>
             <ul className="list-group">
                 <li className="list-group-item">
-                    {todo.do}
-                    <button onClick={() =>
-                        deleteTodoClickHandler(todo)}
-                        className="btn btn-danger float-end">
-                        Delete
-                    </button>
-                </li>
-                <li className="list-group-item">
                     <input
                         onChange={todoChangeHandler}
                         value={todo.do}
@@ -68,6 +60,11 @@ const Todos = () => {
                                         })}
                                 type="checkbox" />
                             {todo.do}
+                            <button onClick={() =>
+                                deleteTodoClickHandler(todo)}
+                                className="btn btn-danger float-end">
+                                Delete
+                                </button>
                         </li>
                     )
                 }
