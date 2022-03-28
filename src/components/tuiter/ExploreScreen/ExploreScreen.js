@@ -4,7 +4,7 @@ import WhoToFollowList from "../WhoToFollowList/index";
 import './explore.css';
 
 const ExploreScreen = () => {
-    return (
+    /*return (
         <div class="row mt-2">
             <div class="col-2 col-md-2 col-lg-1 col-xl-2 col-sm-3">
                 <NavigationSidebar active="explore" />
@@ -16,6 +16,9 @@ const ExploreScreen = () => {
                 <WhoToFollowList />
             </div>
         </div>
+    );*/
+    return (
+        <ExploreComponent />
     );
 }
 
