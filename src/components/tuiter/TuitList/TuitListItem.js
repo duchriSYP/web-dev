@@ -17,7 +17,7 @@ const TuitListItem = ({ tuit }) => {
                     <div className="col-10">
                         <div className="row">
                             <i onClick={deleteTuit} className="fa fa-remove fa-pull-right"></i>
-                            <span className="fw-bold">{tuit.userName}</span>
+                            <span className="fw-bold">{tuit.postedBy.userName}</span>
                             {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
                             <span className="ms-1 text-secondary">@{tuit.handle}</span>
                             <div>
