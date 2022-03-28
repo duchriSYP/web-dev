@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
-    const deleteTuitClickHandler = () => {
+    const deleteTuit = () => {
         dispatch({ type: 'delete-tuit', tuit })
     }
     return (
@@ -12,11 +12,11 @@ const TuitListItem = ({ tuit }) => {
             <li className="list-group-item">
                 <div className="row">
                     <div className="col-2">
-                        <img src={tuit['logo-image']} className="rounded-circle wd-avatar-image" />
+                        <img src={tuit['logo-image']} className="rounded-circle wd-avatar" />
                     </div>
                     <div className="col-10">
                         <div className="row">
-                            <i onClick={deleteTuitClickHandler} className="fa fa-remove fa-pull-right"></i>
+                            <i onClick={deleteTuit} className="fa fa-remove fa-pull-right"></i>
                             <span className="fw-bold">{tuit.userName}</span>
                             {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
                             <span className="ms-1 text-secondary">@{tuit.handle}</span>
@@ -28,7 +28,7 @@ const TuitListItem = ({ tuit }) => {
                             {
                                 tuit.attachments && tuit.attachments.image &&
                                 <img src={tuit.attachments.image}
-                                    className="mt-2 wd-border-radius-20px"
+                                    className="m-0 p-0 wd-rounded"
                                     style={{ width: "100%" }} />
                             }
                             {

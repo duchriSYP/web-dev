@@ -1,7 +1,7 @@
-.wd-avatar-image {
-    width: 48px;
+.wd-avatar {
+    width: 50px;
 }
 
-.wd-border-radius-20px {
+.wd-rounded {
     border-radius: 20px;
 }
