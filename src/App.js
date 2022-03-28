@@ -13,8 +13,9 @@ function App() {
     <BrowserRouter>
       <div className="container">
         <Routes>
+          <Route exact path="/test" element={<HomeScreen />} />
           <Route path="/">
-            <Route exact path="labs" element={<Labs />} />
+            <Route path="labs" element={<Labs />} />
             <Route path="hello" element={<HelloWorld />} />
             <Route path="tuiter" element={<Tuiter />}>
               <Route index element={<HomeScreen />} />
