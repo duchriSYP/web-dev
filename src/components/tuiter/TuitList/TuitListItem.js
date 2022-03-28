@@ -11,8 +11,8 @@ const TuitListItem = ({ tuit }) => {
         <div>
             <li className="list-group-item d-flex">
                 <div className="row">
-                    <div className="col-1">
-                        <img src={tuit['avatar-image']} className="rounded-circle wd-avatar justify-content-center" />
+                    <div className="col-1 wd-centered-col">
+                        <img src={tuit['avatar-image']} className="rounded-circle wd-avatar" />
                     </div>
                     <div className="col-11">
                         <div className="row">
