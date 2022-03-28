@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const Todos = () => {
@@ -5,6 +6,13 @@ const Todos = () => {
         useSelector(state => state.todos);
     const [todo, setTodo] = useState({ do: '' });
     const dispatch = useDispatch();
+    const todoChangeHandler = (event) => {
+        const doValue = event.target.value;
+        const newTodo = {
+            do: doValue
+        };
+        setTodo(newTodo);
+    }
     const createTodoClickHandler = () => {
         const action = {
             type: 'create-todo',
