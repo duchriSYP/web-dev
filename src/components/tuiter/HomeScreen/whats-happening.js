@@ -15,7 +15,7 @@ const WhatsHappening = () => {
     return (
         <div className="row">
             <div className="col-1">
-                <img src={"../../../tuiter/among-us.png"} className="wd-avatar rounded-circle" />
+                <img src="../../../tuiter/among-us.png" className="wd-avatar rounded-circle" />
             </div>
             <div className="col-11">
                 <div className="row">
