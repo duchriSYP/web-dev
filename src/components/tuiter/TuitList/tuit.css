@@ -13,7 +13,7 @@
 }
 
 .wd-centered {
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }
