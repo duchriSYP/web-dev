@@ -6,6 +6,7 @@ import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 import HomeScreen from "./components/tuiter/HomeScreen";
 import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
