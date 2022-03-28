@@ -11,17 +11,23 @@ const TuitListItem = ({ tuit }) => {
         <div>
             <li className="list-group-item d-flex">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-1">
                         <img src={tuit['avatar-image']} className="rounded-circle wd-avatar float-left" />
                     </div>
-                    <div className="col-10">
+                    <div className="col-11">
                         <div className="row">
-                            <span className="fw-bold">{tuit.postedBy.username}</span>
-                            {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
-                            <span className="ms-1 text-secondary">@{tuit.handle}</span>
-                            <span>
-                                <i onClick={deleteTuit} className="fa fa-remove fa-pull-right float-end"></i>
-                            </span>
+                            <div className="col-2">
+                                <span className="fw-bold">{tuit.postedBy.username}</span>
+                                {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
+                            </div>
+                            <div className="col-2">
+                                <span className="ms-1 text-secondary">@{tuit.handle}</span>
+                            </div>
+                            <div className="col-8">
+                                <span>
+                                    <i onClick={deleteTuit} className="fa fa-remove fa-pull-right float-end"></i>
+                                </span>
+                            </div>
                             <div>
                                 {tuit.tuit}
                             </div>
