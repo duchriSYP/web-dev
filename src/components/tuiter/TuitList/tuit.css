@@ -11,3 +11,9 @@
     position: relative;
     left: 50%;
 }
+
+.wd-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
