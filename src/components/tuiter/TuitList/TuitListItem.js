@@ -16,14 +16,12 @@ const TuitListItem = ({ tuit }) => {
                     </div>
                     <div className="col-11">
                         <div className="row">
-                            <div className="col-2">
+                            <div className="col-6">
                                 <span className="fw-bold">{tuit.postedBy.username}</span>
                                 {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
-                            </div>
-                            <div className="col-2">
                                 <span className="ms-1 text-secondary">@{tuit.handle}</span>
                             </div>
-                            <div className="col-8">
+                            <div className="col-6">
                                 <span>
                                     <i onClick={deleteTuit} className="fa fa-remove fa-pull-right float-end"></i>
                                 </span>
