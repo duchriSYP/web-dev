@@ -26,7 +26,7 @@ const WhatsHappening = () => {
                     </textarea>
                 </div>
                 <div className="row">
-                    <button onClick={tuitClickHandler}> Tuit </button>
+                    <button className="wd-tuit-button" onClick={tuitClickHandler}> Tuit </button>
                 </div>
             </div>
         </div>
