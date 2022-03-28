@@ -11,7 +11,7 @@ const NavigationSidebar = (
                     <i className="fa-brands fa-twitter"></i>
                 </a>
 
-                <a href="home.html" className="list-group-item list-group-item-action">
+                <a href="../../../tuiter/home.html" className="list-group-item list-group-item-action">
                     <i className="fa-solid fa-house-chimney"></i>
                     <span className="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
                         Home
