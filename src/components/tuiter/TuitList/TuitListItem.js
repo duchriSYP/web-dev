@@ -23,7 +23,7 @@ const TuitListItem = ({ tuit }) => {
                             </div>
                             <div className="col-6">
                                 <span>
-                                    <i onClick={deleteTuit} className="fa fa-remove fa-pull-right float-end"></i>
+                                    <i onClick={deleteTuit} className="fa fa-remove fa-pull-right"></i>
                                 </span>
                             </div>
                             <div>
