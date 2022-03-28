@@ -16,6 +16,7 @@ function App() {
           <Route path="/">
             <Route path="labs"
               element={<Labs />} />
+            <Route path="labs" exact={true} element={<Labs />} />
             <Route path="hello"
               element={<HelloWorld />} />
             <Route path="tuiter"
