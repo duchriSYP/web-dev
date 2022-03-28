@@ -16,6 +16,16 @@ const Todos = () => {
         <>
             <h3>Todos</h3>
             <ul className="list-group">
+                <li className="list-group-item">
+                    <input
+                        onChange={todoChangeHandler}
+                        value={todo.do}
+                        className="form-control" />
+                    <button onClick={createTodoClickHandler}
+                        className="btn btn-primary">
+                        Create New Todo
+                </button>
+                </li>
                 {
                     todos.map(todo =>
                         <li className="list-group-item">
@@ -24,16 +34,6 @@ const Todos = () => {
                     )
                 }
             </ul>
-            <li className="list-group-item">
-                <input
-                    onChange={todoChangeHandler}
-                    value={todo.do}
-                    className="form-control" />
-                <button onClick={createTodoClickHandler}
-                    className="btn btn-primary">
-                    Create New Todo
-                </button>
-            </li>
         </>
     );
 };
