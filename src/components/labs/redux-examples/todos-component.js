@@ -6,6 +6,13 @@ const Todos = () => {
         useSelector(state => state.todos);
     const [todo, setTodo] = useState({ do: '' });
     const dispatch = useDispatch();
+    const deleteTodoClickHandler = (todo) => {
+        const action = {
+            type: 'delete-todo',
+            todo
+        };
+        dispatch(action);
+    }
     const todoChangeHandler = (event) => {
         const doValue = event.target.value;
         const newTodo = {
@@ -24,6 +31,14 @@ const Todos = () => {
         <>
             <h3>Todos</h3>
             <ul className="list-group">
+                <li className="list-group-item">
+                    {todo.do}
+                    <button onClick={() =>
+                        deleteTodoClickHandler(todo)}
+                        className="btn btn-danger float-end">
+                        Delete
+                    </button>
+                </li>
                 <li className="list-group-item">
                     <input
                         onChange={todoChangeHandler}
