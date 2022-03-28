@@ -12,7 +12,7 @@ const reducers = combineReducers({ hello, todos })
 
 const ReduxExamples = () => {
     return (
-        <Provider store={store}>
+        <Provider store={reducers}>
             <div>
                 <h2>Redux Examples</h2>
                 <Todos />
