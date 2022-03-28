@@ -5,3 +5,10 @@
 .wd-rounded {
     border-radius: 20px;
 }
+
+.wd-centered-col {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
