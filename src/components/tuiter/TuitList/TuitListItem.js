@@ -9,17 +9,17 @@ const TuitListItem = ({ tuit }) => {
     }
     return (
         <div>
-            <li className="list-group-item">
+            <li className="list-group-item d-flex">
                 <div className="row">
                     <div className="col-2">
-                        <img src={tuit['logo-image']} className="rounded-circle wd-avatar" />
+                        <img src={tuit['avatar-image']} className="rounded-circle wd-avatar float-left" />
                     </div>
                     <div className="col-10">
                         <div className="row">
-                            <i onClick={deleteTuit} className="fa fa-remove fa-pull-right"></i>
                             <span className="fw-bold">{tuit.postedBy.userName}</span>
                             {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
                             <span className="ms-1 text-secondary">@{tuit.handle}</span>
+                            <i onClick={deleteTuit} className="fa fa-remove fa-pull-right"></i>
                             <div>
                                 {tuit.tuit}
                             </div>
