@@ -8,7 +8,8 @@ import { createStore, combineReducers }
     from "redux";
 import Todos from "./todos-component";
 
-const reducers = combineReducers({ hello, todos })
+const reducers = combineReducers({ hello, todos });
+const store = createStore(reducers);
 
 const ReduxExamples = () => {
     return (
