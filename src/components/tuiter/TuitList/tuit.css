@@ -17,3 +17,8 @@
     margin: 0 auto;
     max-width: 100%;
 }
+
+.wd-text-area {
+    border: none;
+    width: 100%;
+}
