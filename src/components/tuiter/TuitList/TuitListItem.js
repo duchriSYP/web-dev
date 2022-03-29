@@ -1,6 +1,7 @@
 import React from "react";
 import './tuit.css';
 import { useDispatch } from "react-redux";
+import TuitStats from "../HomeScreen/tuit-stats";
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
@@ -48,6 +49,9 @@ const TuitListItem = ({ tuit }) => {
                                     allowFullScreen>
                                 </iframe>
                             }
+                        </div>
+                        <div className="row">
+                            <TuitStats tuit={tuit} />
                         </div>
                     </div>
                 </div>
