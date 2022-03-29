@@ -1,3 +1,5 @@
+import tuits from "../TuitList/tuits.json";
+
 const tuitsReducer =
     (state = tuits, action) => {
         switch (action.type) {
