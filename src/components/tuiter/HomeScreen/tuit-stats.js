@@ -9,6 +9,8 @@ const TuitStats = ({ tuit }) => {
         <div className="row">
             <span className="col">
                 <i className="far fa-comment me-2"></i>{tuit.stats.comments}
+            </span>
+            <span className="col">
                 <i className="fas fa-retweet me-2"></i>{tuit.stats.retuits}
             </span>
             <span className="col" onClick={likeTuit} >
