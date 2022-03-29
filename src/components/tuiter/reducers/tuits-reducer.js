@@ -25,3 +25,5 @@ const tuitsReducer =
                 return tuits
         }
     }
+
+export default tuitsReducer;

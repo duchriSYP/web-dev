@@ -2,11 +2,15 @@ import { Outlet } from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar";
 import "./ExploreScreen/explore.css";
 import whoReducer from "./reducers/who-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
 import { combineReducers, createStore } from "redux";
 import { Provider } from "react-redux";
 import WhoToFollowList from "./WhoToFollowList";
 
-const store = createStore(whoReducer);
+const reducer = combineReducers({
+    tuits: tuitsReducer, who: whoReducer
+});
+const store = createStore(reducer);
 
 const Tuiter = () => {
     return (
