@@ -27,10 +27,10 @@ const WhatsHappening = () => {
                 </div>
                 <div className="row justify-content-between">
                     <span>
-                        <i className="fas fa-image fa-inverse pe-3 wd-highlight-color"></i>
-                        <i className="fas fa-chart-line pe-3 wd-highlight-color"></i>
-                        <i className="fas fa-smile fa-inverse pe-3 wd-highlight-color"></i>
-                        <i className="fas fa-calendar fa-inverse wd-highlight-color"></i>
+                        <i className="far fa-image me-3 wd-highlight-color"></i>
+                        <i className="far fa-analytics me-3 wd-highlight-color"></i>
+                        <i className="far fa-smile me-3 wd-highlight-color"></i>
+                        <i className="far fa-calendar me-3 wd-highlight-color"></i>
                     </span>
                     <span>
                         <button className="btn btn-primary btn-block rounded-pill wd-tuit-button" onClick={tuitClickHandler}>
