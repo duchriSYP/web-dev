@@ -30,7 +30,7 @@ const WhatsHappening = () => {
                         <i className="fas fa-image fa-inverse pe-2 wd-highlight-color"></i>
                         <i className="fas fa-chart-line pe-2 wd-highlight-color"></i>
                         <i className="fas fa-smile fa-inverse pe-2 wd-highlight-color"></i>
-                        <i className="fas fa-calendar wd-highlight-color"></i>
+                        <i className="fas fa-calendar fa-inverse wd-highlight-color"></i>
                     </span>
                     <button className="btn btn-primary btn-block rounded-pill wd-tuit-button" onClick={tuitClickHandler}>
                         Tuit
