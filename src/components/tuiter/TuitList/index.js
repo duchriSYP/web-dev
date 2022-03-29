@@ -1,9 +1,9 @@
 import React from "react";
-import tuits from "./tuits.json";
 import TuitListItem from "./TuitListItem";
 //import './tuits.css';
 
 const TuitList = () => {
+    const tuits = useSelector(state => state.tuits);
     return (
         <ul className="list-group">
             {

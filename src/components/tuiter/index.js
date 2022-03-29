@@ -10,7 +10,7 @@ import WhoToFollowList from "./WhoToFollowList";
 const reducer = combineReducers({
     tuits: tuitsReducer, who: whoReducer
 });
-const store = createStore(whoReducer);
+const store = createStore(reducer);
 
 const Tuiter = () => {
     return (
