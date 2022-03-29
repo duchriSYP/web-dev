@@ -20,7 +20,7 @@ const WhatsHappening = () => {
             <div className="col-11">
                 <div className="row">
                     <textarea
-                        className="wd-text-area"
+                        className="form-control"
                         placeholder="What's happening?"
                         style={{
                             width: "100%", color: "white",
