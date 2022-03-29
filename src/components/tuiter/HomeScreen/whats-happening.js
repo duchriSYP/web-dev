@@ -44,7 +44,7 @@ const WhatsHappening = () => {
                         <button
                             className="btn btn-primary btn-block rounded-pill fa-pull-right"
                             onClick={tuitClickHandler}>
-                            Tuit
+                            Tweet
                     </button>
                     </div>
                 </div>
