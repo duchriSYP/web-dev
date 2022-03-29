@@ -32,7 +32,7 @@ const WhatsHappening = () => {
                     </textarea>
                 </div>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-4">
                         <span>
                             <i className="far fa-image me-3 wd-highlight-color"></i>
                             <i className="fas fa-chart-line me-3 wd-highlight-color"></i>
@@ -40,7 +40,7 @@ const WhatsHappening = () => {
                             <i className="far fa-calendar me-3 wd-highlight-color"></i>
                         </span>
                     </div>
-                    <div className="col-6">
+                    <div className="col-8">
                         <button
                             className="btn btn-primary btn-block rounded-pill fa-pull-right"
                             onClick={tuitClickHandler}>
