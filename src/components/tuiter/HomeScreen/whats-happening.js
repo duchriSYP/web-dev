@@ -22,12 +22,6 @@ const WhatsHappening = () => {
                     <textarea
                         className="wd-text-area"
                         placeholder="What's happening?"
-                        style={{
-                            width: "100%", color: "white",
-                            padding: "0px",
-                            paddingTop: "15px",
-                            backgroundColor: "black"
-                        }}
                         value={whatsHappening} onChange={(event) => setWhatsHappening(event.target.value)}>
                     </textarea>
                 </div>
