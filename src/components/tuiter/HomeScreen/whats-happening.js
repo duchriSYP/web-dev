@@ -26,12 +26,12 @@ const WhatsHappening = () => {
                     </textarea>
                 </div>
                 <div className="row justify-content-between">
-                    <div>
-                        <i className="fas fa-image pe-2 wd-highlight-color"></i>
+                    <span>
+                        <i className="fas fa-image fa-inverse pe-2 wd-highlight-color"></i>
                         <i className="fas fa-chart-line pe-2 wd-highlight-color"></i>
-                        <i className="fas fa-smile pe-2 wd-highlight-color"></i>
+                        <i className="fas fa-smile fa-inverse pe-2 wd-highlight-color"></i>
                         <i className="fas fa-calendar wd-highlight-color"></i>
-                    </div>
+                    </span>
                     <button className="btn btn-primary btn-block rounded-pill wd-tuit-button" onClick={tuitClickHandler}>
                         Tuit
                     </button>
