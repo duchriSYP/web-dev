@@ -25,13 +25,16 @@ const tuitsReducer =
                 const newTuit = {
                     tuit: action.tuit,
                     _id: (new Date()).getTime() + '',
+                    handle: "AmongUs",
                     postedBy: {
-                        "username": "ReactJS"
+                        "username": "amongus"
                     },
+                    logo: "../../../tuiter/among-us.png",
+                    avatar: "../../../tuiter/among-us.png",
                     stats: {
                         retuits: 111,
                         likes: 222,
-                        replies: 333
+                        comments: 333
                     }
                 }
                 return [
