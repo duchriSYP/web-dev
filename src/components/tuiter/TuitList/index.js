@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import TuitListItem from "./TuitListItem";
-import { useSelector } from "react-redux";
 import { useDispatch, useSelector } from "react-redux";
 import * as service from '../../../../web-dev-node/services/tuits-service';
 //import './tuits.css';
