@@ -15,7 +15,7 @@ const TuitList = () => {
             tuits: tuits
         });
     }
-    useEffect(findAllTuits, []);
+    useEffect(() => findAllTuits(dispatch));
     return (
         <ul className="list-group">
             {
