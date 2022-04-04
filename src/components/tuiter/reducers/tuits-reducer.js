@@ -3,7 +3,7 @@ const tuitsReducer =
         switch (action.type) {
             case 'FIND_ALL_TUITS':
                 return action.tuits;
-            case 'like-tuit':
+            /*case 'like-tuit':
                 return state.map(tuit => {
                     if (tuit._id === action.tuit._id) {
                         if (tuit.liked === true) {
@@ -40,7 +40,7 @@ const tuitsReducer =
                 return [
                     newTuit,
                     ...state,
-                ];
+                ];*/
             default:
                 return state;
         }
