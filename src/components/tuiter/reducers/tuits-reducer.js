@@ -1,4 +1,4 @@
-import { FIND_ALL_TUITS } from "../../../actions/tuits-actions";
+import { FIND_ALL_TUITS } from "../../actions/tuits-actions";
 
 const tuitsReducer = (state = [], action) => {
     switch (action.type) {
