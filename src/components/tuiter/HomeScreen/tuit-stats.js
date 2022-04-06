@@ -3,7 +3,6 @@ import { updateTuit } from "../../../actions/tuits-actions.js";
 
 const TuitStats = ({ tuit }) => {
     const dispatch = useDispatch();
-    console.log(tuit.stats);
     return (
         <div className="row">
             <span className="col">
@@ -15,7 +14,7 @@ const TuitStats = ({ tuit }) => {
             <span className="col"
                 onClick={() => updateTuit(dispatch, {
                     ...tuit,
-                    stats: stats
+                    liked: !tuit.liked
                 })} >
                 {
                     tuit.liked &&
@@ -28,6 +27,22 @@ const TuitStats = ({ tuit }) => {
                 }
                 {tuit.stats && tuit.stats.likes}
             </span >
+            <span className="col"
+                onClick={() => updateTuit(dispatch, {
+                    ...tuit,
+                    disliked: !tuit.disliked
+                })} >
+                {
+                    tuit.disliked &&
+                    <i class="fa-solid fa-thumbs-down me-2"></i>
+                }
+                {
+                    !tuit.disliked &&
+                    <i className="far fa-thumbs-down me-2"></i>
+                }
+                {tuit.stats && tuit.stats.likes}
+                <i class="fa-solid fa-thumbs-down"></i>
+            </span>
             <span className="col">
                 <i className="fas fa-share-square"></i>
             </span>
