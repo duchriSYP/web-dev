@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import TuitListItem from "./TuitListItem";
 import { useDispatch, useSelector } from "react-redux";
 //import * as service from '../../../services/tuits-service.js';
-import { deleteTuit, findAllTuits } from "../../../actions/tuits-actions.js";
+import { deleteTuit, findAllTuits, createTuit } from "../../../actions/tuits-actions.js";
 
 const TuitList = () => {
     const tuits = useSelector(state => state.tuits);
