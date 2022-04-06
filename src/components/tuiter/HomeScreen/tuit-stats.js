@@ -3,6 +3,7 @@ import { updateTuit } from "../../../actions/tuits-actions.js";
 
 const TuitStats = ({ tuit }) => {
     const dispatch = useDispatch();
+    console.log(tuit.stats);
     return (
         <div className="row">
             <span className="col">
@@ -18,8 +19,7 @@ const TuitStats = ({ tuit }) => {
                 })} >
                 {
                     tuit.liked &&
-                    <i className="fas fa-heart me-2"
-                        style={{ color: 'red' }}></i>
+                    <i className="fas fa-heart me-2" style={{ color: 'red' }}></i>
                 }
                 {
                     !tuit.liked &&
@@ -34,13 +34,13 @@ const TuitStats = ({ tuit }) => {
                 })} >
                 {
                     tuit.disliked &&
-                    <i class="fa-solid fa-thumbs-down me-2"></i>
+                    <i class="fa-solid fa-thumbs-down me-2" style={{ color: 'blue' }}></i>
                 }
                 {
                     !tuit.disliked &&
                     <i className="far fa-thumbs-down me-2"></i>
                 }
-                {tuit.stats && tuit.stats.likes}
+                {tuit.stats && tuit.stats.dislikes}
                 <i class="fa-solid fa-thumbs-down"></i>
             </span>
             <span className="col">
