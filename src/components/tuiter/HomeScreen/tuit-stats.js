@@ -14,7 +14,7 @@ const TuitStats = ({ tuit }) => {
             <span className="col"
                 onClick={() => updateTuit(dispatch, {
                     ...tuit,
-                    likes: tuit.stats.likes + 1,
+                    stats: { likes: likes + 1 },
                     liked: !tuit.liked
                 })} >
                 {
