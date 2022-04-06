@@ -15,10 +15,10 @@ const TuitList = () => {
             {
                 tuits.map && tuits.map(tuit =>
                     <div>
-                        <i className="fas fa-remove float-end"
-                            onClick={() => deleteTuit(
-                                dispatch, tuit)}></i>
                         <TuitListItem key={tuit._id} tuit={tuit} />
+                        <i className="fas fa-remove float-end"
+                            onClick={() => deleteTuit(dispatch, tuit)}>
+                        </i>
                     </div>
                 )
             }
