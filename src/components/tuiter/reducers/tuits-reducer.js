@@ -9,8 +9,8 @@ const tuitsReducer = (state = [], action) => {
                 tuit => tuit._id !== action.tuit._id);
         case CREATE_TUIT:
             return [
-                newTuit,
-                ...state
+                ...state,
+                action.newTuit
             ];
         /*case 'like-tuit':
             return state.map(tuit => {
