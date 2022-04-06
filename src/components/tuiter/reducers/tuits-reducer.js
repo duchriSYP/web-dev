@@ -8,9 +8,24 @@ const tuitsReducer = (state = [], action) => {
             return state.filter(
                 tuit => tuit._id !== action.tuit._id);
         case CREATE_TUIT:
+            const newTuit = {
+                tuit: action.newTuit,
+                _id: (new Date()).getTime() + '',
+                handle: "AmongUs",
+                postedBy: {
+                    "username": "amongus"
+                },
+                logo: "../../../tuiter/among-us.png",
+                avatar: "../../../tuiter/among-us.png",
+                stats: {
+                    retuits: 111,
+                    likes: 222,
+                    comments: 333
+                }
+            }
             return [
                 ...state,
-                action.newTuit
+                newTuit
             ];
         /*case 'like-tuit':
             return state.map(tuit => {
