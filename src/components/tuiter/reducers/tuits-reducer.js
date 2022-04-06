@@ -2,7 +2,7 @@ import { FIND_ALL_TUITS } from "../../../actions/tuits-actions.js";
 
 const tuitsReducer = (state = [], action) => {
     switch (action.type) {
-        case 'FIND_ALL_TUITS':
+        case FIND_ALL_TUITS:
             return action.tuits;
         /*case 'like-tuit':
             return state.map(tuit => {
