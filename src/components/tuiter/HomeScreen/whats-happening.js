@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
     const [newTuit, setNewTuit] =
-        useState({ tuit: '' });
+        useState({ tuit: 'New tuit' });
     return (
         <div className="row">
             <div className="col-1">
@@ -31,7 +31,7 @@ const WhatsHappening = () => {
                             paddingTop: "15px",
                             backgroundColor: "black"
                         }}
-                        value={newTuit}
+                        //value={newTuit}
                         onChange={(e) =>
                             setNewTuit({
                                 ...newTuit,
