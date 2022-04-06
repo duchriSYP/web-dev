@@ -2,13 +2,10 @@ import React from "react";
 import './tuit.css';
 import { useDispatch } from "react-redux";
 import TuitStats from "../HomeScreen/tuit-stats";
-import { deleteTuit, findAllTuits } from "../../../actions/tuits-actions.js";
+import { deleteTuit } from "../../../actions/tuits-actions.js";
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
-    const deleteTuit = () => {
-        dispatch({ type: 'delete-tuit', tuit })
-    }
     return (
         <div>
             <li className="list-group-item">
