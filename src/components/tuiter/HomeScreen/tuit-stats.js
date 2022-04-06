@@ -3,7 +3,7 @@ import { updateTuit } from "../../../actions/tuits-actions.js";
 
 const TuitStats = ({ tuit }) => {
     const dispatch = useDispatch();
-    console.log(tuit);
+    console.log(tuit.stats);
     return (
         <div className="row">
             <span className="col">
