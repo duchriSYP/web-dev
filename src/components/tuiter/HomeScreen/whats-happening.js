@@ -11,7 +11,6 @@ import { createTuit } from "../../../actions/tuits-actions.js";
     } 
     */
 const WhatsHappening = () => {
-    let [whatsHappening, setWhatsHappening] = useState('');
     const dispatch = useDispatch();
     const [newTuit, setNewTuit] =
         useState({ tuit: 'New tuit' });
