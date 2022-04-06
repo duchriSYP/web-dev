@@ -2,6 +2,7 @@ import React from "react";
 import './tuit.css';
 import { useDispatch } from "react-redux";
 import TuitStats from "../HomeScreen/tuit-stats";
+import { deleteTuit, findAllTuits } from "../../../actions/tuits-actions.js";
 
 const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
@@ -23,9 +24,9 @@ const TuitListItem = ({ tuit }) => {
                                 <span className="ms-1 text-secondary">@{tuit.handle}</span>
                             </div>
                             <div className="col-6">
-                                <span>
-                                    <i onClick={deleteTuit} className="fa fa-remove fa-pull-right"></i>
-                                </span>
+                                <i className="fas fa-remove float-end"
+                                    onClick={() => deleteTuit(dispatch, tuit)}>
+                                </i>
                             </div>
                             <div>
                                 {tuit.tuit}
