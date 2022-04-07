@@ -16,7 +16,7 @@ const TuitStats = ({ tuit }) => {
             <span className="col"
                 onClick={() => updateTuit(dispatch, {
                     ...tuit,
-                    [stats.likes]: tuit.liked === true ? [tuit.stats.likes] - 1 : [tuit.stats.likes] + 1,
+                    likes: tuit.liked === true ? tuit.likes - 1 : tuit.likes + 1,
                     liked: !tuit.liked
                 })} >
                 {
@@ -27,11 +27,12 @@ const TuitStats = ({ tuit }) => {
                     !tuit.liked &&
                     <i className="far fa-heart me-2"></i>
                 }
-                {tuit.stats && tuit.stats.likes}
+                {tuit.stats && tuit.likes}
             </span >
             <span className="col"
                 onClick={() => updateTuit(dispatch, {
                     ...tuit,
+                    dislikes: tuit.disliked === true ? tuit.dislikes - 1 : tuit.dislikes + 1,
                     disliked: !tuit.disliked
                 })} >
                 {
@@ -42,12 +43,12 @@ const TuitStats = ({ tuit }) => {
                     !tuit.disliked &&
                     <i className="far fa-thumbs-down me-2"></i>
                 }
-                {tuit.stats && tuit.stats.dislikes}
+                {tuit.stats && tuit.dislikes}
             </span>
             <span className="col">
                 <i className="fas fa-share-square"></i>
             </span>
-        </div>
+        </div >
     );
 }
 export default TuitStats;
