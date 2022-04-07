@@ -1,7 +1,8 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { updateTuit } from "../../../actions/tuits-actions.js";
 
 const TuitStats = ({ tuit }) => {
+    const tuits = useSelector(state => state.tuits);
     const dispatch = useDispatch();
     console.log(tuit.stats);
     return (
@@ -15,9 +16,8 @@ const TuitStats = ({ tuit }) => {
             <span className="col"
                 onClick={() => updateTuit(dispatch, {
                     ...tuit,
-                    attachments: attachments,
-                    //[stats.likes]: tuit.liked === true ? [tuit.stats.likes] - 1 : [tuit.stats.likes] + 1,
-
+                    stats? [stats.likes],
+                    //stats && stats.likes ? [stats.likes]: tuit.liked === true ? [tuit.stats.likes] - 1 : [tuit.stats.likes] + 1,
                     liked: !tuit.liked
                 })} >
                 {
