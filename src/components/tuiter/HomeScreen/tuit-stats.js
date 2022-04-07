@@ -34,7 +34,7 @@ const TuitStats = ({ tuit }) => {
                 })} >
                 {
                     tuit.disliked &&
-                    <i class="fa-solid fa-thumbs-down me-2" style={{ color: 'light-blue' }}></i>
+                    <i class="fa-solid fa-thumbs-down me-2" style={{ color: 'lightblue' }}></i>
                 }
                 {
                     !tuit.disliked &&
