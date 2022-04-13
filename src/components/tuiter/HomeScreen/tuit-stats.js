@@ -4,7 +4,6 @@ import { updateTuit } from "../../../actions/tuits-actions.js";
 const TuitStats = ({ tuit }) => {
     const tuits = useSelector(state => state.tuits);
     const dispatch = useDispatch();
-    console.log(tuit.stats);
     return (
         <div className="row">
             <span className="col">
@@ -14,7 +13,7 @@ const TuitStats = ({ tuit }) => {
                 <i className="fas fa-retweet me-2"></i>{tuit.stats.retuits}
             </span>
             <span className="col"
-                onClick={() => updateTuit(dispatch, {
+                onClick={async () => updateTuit(dispatch, {
                     ...tuit,
                     likes: tuit.liked === true ? tuit.likes - 1 : tuit.likes + 1,
                     liked: !tuit.liked
