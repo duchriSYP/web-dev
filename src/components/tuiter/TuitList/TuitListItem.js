@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import TuitStats from "../HomeScreen/tuit-stats";
 import { deleteTuit } from "../../../actions/tuits-actions.js";
 
-const TuitListItem = ({ tuit }) => {
+const TuitListItem = async ({ tuit }) => {
     const dispatch = useDispatch();
     return (
         <div>
