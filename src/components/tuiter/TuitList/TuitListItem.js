@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import TuitStats from "../HomeScreen/tuit-stats";
 import { deleteTuit } from "../../../actions/tuits-actions.js";
 
-const TuitListItem = async ({ tuit }) => {
+const TuitListItem = ({ tuit }) => {
     const dispatch = useDispatch();
     return (
         <div>
@@ -22,7 +22,7 @@ const TuitListItem = async ({ tuit }) => {
                             </div>
                             <div className="col-6">
                                 <i className="fas fa-remove float-end"
-                                    onClick={() => deleteTuit(dispatch, tuit)}>
+                                    onClick={async () => deleteTuit(dispatch, tuit)}>
                                 </i>
                             </div>
                             <div>
